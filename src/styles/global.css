@@ -1,3 +1,30 @@
 @import './_variables.css';
 @import './_base.css';
 @import './_utility.css';
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: hotpink;
+}
+
+.toggle-rotation {
+  transform: rotate(45deg);
+  transition: 1s;
+}
+
+.toggle-background {
+  background: skyblue;
+  transition: 1s;
+}
+
+.toggle-radius {
+  border-radius: 50%;
+  transition: 1s;
+}
