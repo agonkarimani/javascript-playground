@@ -14,6 +14,17 @@ body {
   background: hotpink;
 }
 
-.blue {
+.toggle-rotation {
+  transform: rotate(45deg);
+  transition: 1s;
+}
+
+.toggle-background {
   background: skyblue;
+  transition: 1s;
+}
+
+.toggle-radius {
+  border-radius: 50%;
+  transition: 1s;
 }
